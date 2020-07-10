@@ -1,5 +1,15 @@
 # Spark Streaming on SF Crime Statistics
 
+## Screenshots
+1. kafka-consumer-console output
+<img src="screenshots/1.kafka-consumer-console output.png">
+
+2. Progress report
+<img src="screenshots/2.progress report.png">
+
+3. Spark UI
+<img src="screenshots/3.Spark UI.png">
+
 ## Questions and Answers
 1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
 They will affect parameters in progress report like `numInputRows`, `inputRowsPerSecond` or `processedRowsPerSecond`.
